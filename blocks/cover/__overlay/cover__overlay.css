@@ -1,0 +1,22 @@
+.cover__overlay {
+  outline: green solid medium;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgba(42, 44, 47, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cover__overlay:hover {
+    background-color: rgba(42, 44, 47, 0.8);
+    transition: background-color 1s linear;
+}

@@ -1,0 +1,29 @@
+.footer__nav {
+  display: grid;
+  margin: 0;
+  padding-inline-start: 0;
+  justify-items: start ;
+  align-items: flex-end;
+  list-style: none;
+}
+
+@media screen and (min-width:1280px) {
+  .footer__nav {
+    grid-template-columns: repeat(5, auto);
+    gap: 0 18px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1279px)  {
+  .footer__nav {
+    grid-template-columns: repeat(5, auto);
+    gap: 0 18px;
+  }
+}
+
+@media screen and (max-width: 767px)  {
+  .footer__nav {
+    grid-template-rows: repeat(5, 1fr);
+    gap: 32px 0;
+  }
+}
