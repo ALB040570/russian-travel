@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0 48px 0;
   grid-area: places;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 
@@ -21,6 +24,7 @@
     gap: 72px 0;
   }
 }
+
 
 @media screen and (max-width: 767px)  {
   .places {

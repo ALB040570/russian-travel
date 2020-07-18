@@ -6,7 +6,7 @@
 
 @media screen and (min-width: 1280px) {
   .photo-grid__item {
-    min-height: 16.64vw;
+    min-height: 16.64%;
 
   }
 }
@@ -22,6 +22,14 @@
     min-height: 34.375vw;
   }
 }
+
+/*@media (min-width: 384px) and (max-width: 767px) {
+  .photo-grid__item {
+    max-width: 352px;
+    max-height: 264px;
+  }
+}
+*/
 
 @media screen and (max-width: 767px) {
   .photo-grid__item {

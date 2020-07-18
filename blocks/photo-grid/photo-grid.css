@@ -6,6 +6,7 @@
   grid-area: photo-grid;
   padding: 0 48px 0;
   display: grid;
+  justify-content: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -30,6 +31,14 @@
     gap: 16px;
   }
 }
+
+/*@media (min-width: 384px) and (max-width: 767px) {
+.photo-grid {
+  padding: 0 16px 0;
+  grid-template-rows: repeat(12, 264px);
+  gap: 12px;
+}
+}*/
 
 @media screen and (max-width: 767px)  {
   .photo-grid {
