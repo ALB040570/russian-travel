@@ -14,7 +14,7 @@
 
 @media (min-width: 1024px) and (max-width: 1080px) {
   .lead__image {
-    min-height: calc(.625*(100vw - 2*48px));
+    min-height: calc(.625*(100% - 2*48px));
   }
 }
 
@@ -27,13 +27,13 @@
 
 @media (min-width: 320px) and (max-width: 927px) {
   .lead__image {
-    min-height: 62.5vw;
+    min-height: 62.5%;
 
   }
 }
 @media screen and (max-width: 319px) {
   .lead__image {
-    width: 100vw;
-    min-height: 62.5vw;
+    width: 100%;
+    min-height: 62.5%;
   }
 }

@@ -4,7 +4,8 @@
   line-height: 1.67;
   letter-spacing: .2em;
   color: #AAAAAA;
-  padding-bottom: 12px;
+  margin: 0;
+  text-transform: uppercase;
 
 }
 @media screen and (max-width: 1023px) {

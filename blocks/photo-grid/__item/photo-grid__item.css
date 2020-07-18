@@ -13,27 +13,19 @@
 
 @media (min-width: 1024px) and (max-width: 1279px) {
   .photo-grid__item {
-    min-height: 21.97vw;
+    min-height: 21.97%;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
   .photo-grid__item {
-    min-height: 34.375vw;
+    min-height: 34.375%;
   }
 }
-
-/*@media (min-width: 384px) and (max-width: 767px) {
-  .photo-grid__item {
-    max-width: 352px;
-    max-height: 264px;
-  }
-}
-*/
 
 @media screen and (max-width: 767px) {
   .photo-grid__item {
-    min-height: 67.5vw;
+    min-height: 67.5%;
 
   }
 }
