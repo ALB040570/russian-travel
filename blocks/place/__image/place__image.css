@@ -1,6 +1,7 @@
 .place__image {
-  width: 43vw;
-  height: 43vw;
+  width: 100%;
+  /*width: 43vw;*/
+  height: 42.97vw;
   grid-area: image;
 }
 
@@ -27,14 +28,15 @@
 
 @media (min-width: 768px) and (max-width: 999px) {
   .place__image {
-    width: 44vw;
-    height: 44vw;
+    /*width: 44vw;*/
+    height: 44.272vw;
+    width: 99.63%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__image {
-    width: 100vw;
+    /*width: 100vw;*/
     height: 100vw;
   }
 }

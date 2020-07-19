@@ -42,7 +42,7 @@
 
 @media (min-width: 1024px) and (max-width: 1069px) {
   .place {
-    grid-template-columns: 42.96875% 1.036fr;
+    grid-template-columns: 47.4% 1.036fr;
     grid-template-rows: repeat(2, auto);
     gap: 48px 32px;
     grid-template-areas:
@@ -67,7 +67,7 @@
 }
 @media (min-width: 768px) and (max-width: 999px) {
   .place {
-    grid-template-columns: 44.271% 1.035fr;
+    grid-template-columns: 47.4% 1.035fr;
     grid-template-rows: repeat(2, auto);
     gap: 48px 28px;
     grid-template-areas:
